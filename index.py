@@ -8,7 +8,7 @@ key = b'C&F)H@McQfTjWnZr'
 cipher = AES.new(key, AES.MODE_EAX)
 
 # data to be encrypted
-data = "This is a sample data fro encrypption test".encode()
+data = "This is a sample data for encrypption test".encode()
 
 # nonce is a random value generated each time we instantiate the cipher using new()
 nonce = cipher.nonce
